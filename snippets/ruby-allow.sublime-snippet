@@ -1,15 +1,11 @@
 <snippet>
     <content><![CDATA[
-require "${1:rails}_helper"
-
-describe $2${3:, type: :$4} do
-  $0
-end
+allow($1).to receive(:$2)${3:.and_return($4)}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>suite</tabTrigger>
+    <tabTrigger>allow</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.ruby</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Rspec suite</description>
+    <description>stub method</description>
 </snippet>

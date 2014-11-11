@@ -146,6 +146,9 @@
   // ⌃] Indent
   { "keys": ["ctrl+]"], "command": "indent" },
 
+  // ⌘v Paste and indent
+  { "keys": ["super+v]"], "command": "paste_and_indent" },
+
   // ⌃[ Unindent
   { "keys": ["ctrl+["], "command": "unindent" },
 
@@ -187,6 +190,12 @@
   // ⇧⌃⌘M Show Migrations List
   { "keys": ["shift+ctrl+super+m"], "command": "rails_migrations_list"},
 
+  // ⌘F Find and Replace
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
+
+  // ⇧⌘F Find and Replace in Project
+  { "keys": ["shiftsuper+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
   // ⌃⌘R Show file in sidebar
   { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
 
@@ -203,6 +212,9 @@
 // Text Insertion
   // ⌥⌘= Hash Rocket
   { "keys": ["alt+super+="], "command": "insert_snippet", "args": {"contents": "=>"} },
+
+  // ⌥⌘` Spermy lock operator
+  { "keys": ["alt+super+`"], "command": "insert_snippet", "args": {"contents": "~>"} },
 
   // ⌃0 Insert right parens
   { "keys": ["ctrl+0"], "command": "insert_snippet", "args": {"contents": ")"} },

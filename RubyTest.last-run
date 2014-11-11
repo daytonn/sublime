@@ -1,4 +1,4 @@
 {
-	"last_test_run": "bundle exec rspec --no-color --format progress spec/lib/loan_calculator_spec.rb",
+	"last_test_run": "bundle exec rspec --no-color --format progress spec/controllers/payments_controller_spec.rb:83 && unicornleap",
 	"last_test_working_dir": "/Users/daytonn/Development/dpc"
 }
