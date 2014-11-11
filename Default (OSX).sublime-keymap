@@ -190,11 +190,11 @@
   // ⇧⌃⌘M Show Migrations List
   { "keys": ["shift+ctrl+super+m"], "command": "rails_migrations_list"},
 
+  // ⇧⌘F Find and Replace in Project
+  { "keys": ["shift+super+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
   // ⌘F Find and Replace
   { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
-
-  // ⇧⌘F Find and Replace in Project
-  { "keys": ["shiftsuper+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
   // ⌃⌘R Show file in sidebar
   { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
