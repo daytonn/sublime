@@ -199,6 +199,9 @@
   // ⌃⌘R Show file in sidebar
   { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
 
+  // ⇧⌃⌘N New Scratchpad
+  { "keys": ["shift+ctrl+super+n"], "command": "scratchpad" },
+
 // Text case
   // ⌥⌘U Uppercase
   { "keys": ["alt+super+u"], "command": "upper_case" },

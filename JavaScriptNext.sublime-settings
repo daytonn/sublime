@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"tc"
+		"tc",
+		"es6"
 	]
 }
