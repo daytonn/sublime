@@ -1,0 +1,6 @@
+[
+	{
+		"args": {"panel": "console", "toggle": true},
+		"command": "show_panel"
+	}
+]

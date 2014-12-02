@@ -44,9 +44,7 @@
 		"bin",
 		"CVS",
 		"documentation",
-		"node_modules",
-		"sass",
-		"sprockets"
+		"sass"
 	],
 	"font_face": "Monaco",
 	"font_size": 18,
@@ -55,7 +53,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"JavaScript",
 		"Vintage"
 	],
 	"log_commands": true,

@@ -1,6 +1,5 @@
 {
-	"extensions":
-	[
+	"extensions": [
 		"tc",
 		"es6"
 	]

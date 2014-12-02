@@ -1,4 +1,10 @@
 [
+  {
+    "keys": ["shift+ctrl+alt+super+f"],
+    "command": "reg_replace",
+    "args": {"replacements": ["es6ify_functions"]}
+  },
+
 // Disable arrows
   { "section": "Disable arrows" },
   { "keys": ["up"], "command": "insert_snippet", "args": {"contents": ""} },
@@ -101,6 +107,19 @@
   { "keys": ["alt+n"], "command": "move_to", "args": { "to": "eof" } },
 
 // Selection
+  // Find and Replace in file by default
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
+  // Find and Replace in project by default
+  { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+  // Replace next match
+  { "keys": ["super+alt+f"], "command": "replace_next" },
+  // Find next match
+  { "keys": ["super+g"], "command": "find_next" },
+  // Find previous match
+  { "keys": ["super+shift+g"], "command": "find_prev" },
+
+  // ⌘V Paste and indent
+  { "keys": ["super+v"], "command": "paste_and_indent" },
   // ⌥⌘D Skip selection
   { "keys": ["alt+super+d"], "command": "find_under_expand_skip" },
 
@@ -256,6 +275,17 @@
       "commands": [
         {"command": "move_to", "args": { "to": "eol" }},
         {"command": "insert_snippet", "args": {"contents": ";"}}
+      ]
+    }
+  },
+
+  // ⌃= Add == at end of line
+  { "keys": ["ctrl+="],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {"command": "move_to", "args": { "to": "eol" }},
+        {"command": "insert_snippet", "args": {"contents": " = "}}
       ]
     }
   },

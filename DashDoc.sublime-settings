@@ -1,0 +1,38 @@
+{
+  "syntax_sensitive_as_default": true,
+  "syntax_docset_map":
+  {
+    "JavaScript": [
+      "javascript",
+      "jquery",
+      "jqueryui",
+      "jquerym",
+      "backbone",
+      "lodash",
+      "underscore",
+      "nodejs",
+      "express",
+      "moment",
+      "require",
+      "jasmine",
+      "sinon",
+      "chai"
+    ],
+    "JavaScript - ES6 Syntax": [
+      "javascript",
+      "jquery",
+      "jqueryui",
+      "jquerym",
+      "backbone",
+      "lodash",
+      "underscore",
+      "nodejs",
+      "express",
+      "moment",
+      "require",
+      "jasmine",
+      "sinon",
+      "chai"
+    ]
+  }
+}

@@ -1,12 +1,11 @@
 <snippet>
     <content><![CDATA[
 /* jshint esnext: true */
-$0
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>es</tabTrigger>
+    <tabTrigger>es6</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <!-- <scope>source.ruby</scope> -->
     <!-- Optional: Description to show in the menu -->
-    <description>jshint ES6 comment</description>
+    <description>ES6 jshint comment</description>
 </snippet>
