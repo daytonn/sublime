@@ -1,5 +1,8 @@
 [
-  // Switch view
+  // Open Keybindings file
+  { "keys": ["alt+super+,"], "command": "open_file", "args": { "file": "${packages}/User/Default (OSX).sublime-keymap" } },
+
+  // Cycle views
   { "keys": ["super+shift+["], "command": "prev_view_in_group" },
   { "keys": ["super+shift+]"], "command": "next_view_in_group" },
 
@@ -88,22 +91,6 @@
 
   { "keys": ["shift+tab"], "command": "unindent" },
 
-// Cursor Movement
-  // ⌃F Forward by words
-  { "keys": ["alt+f"], "command": "move", "args": { "by": "wordends", "forward": true } },
-
-  // ⌃B Backward by words
-  { "keys": ["alt+b"], "command": "move", "args": { "by": "words", "forward": false } },
-
-  // ⌃A Beginning of line (soft)
-  { "keys": ["ctrl+a"], "command": "move_to", "args": { "to": "bol" } },
-
-  // ⌥P Beginning of file
-  { "keys": ["alt+p"], "command": "move_to", "args": { "to": "bof" } },
-
-  // ⌥N End of file
-  { "keys": ["alt+n"], "command": "move_to", "args": { "to": "eof" } },
-
 // Selection
   // Find and Replace in file by default
   { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
@@ -133,32 +120,7 @@
   // F5 Sort lines
   { "keys": ["f5"], "command": "sort_lines", "args": {"case_sensitive": false} },
 
-  // ⇧⌥F Forward by words
-  { "keys": ["shift+alt+f"], "command": "move", "args": { "by": "wordends", "forward": true, "extend": true } },
-
-  // ⇧⌥B Backward by words
-  { "keys": ["shift+alt+b"], "command": "move", "args": { "by": "words", "forward": false, "extend": true } },
-
-  // ⇧⌃P To Previous line
-  { "keys": ["shift+ctrl+p"], "command": "move", "args": { "by": "lines", "forward": false, "extend": true } },
-
-  // ⇧⌥N To End of File
-  { "keys": ["shift+alt+n"], "command": "move_to", "args": { "to": "eof", "extend": true } },
-
-  // ⇧⌥P To Begining of File
-  { "keys": ["shift+alt+p"], "command": "move_to", "args": { "to": "bof", "extend": true } },
-
-  // ⌃⌥P New Cursor Up
-  { "keys": ["ctrl+alt+n"], "command": "select_lines", "args": { "by": "characters", "forward": true } },
-
-  // ⌃⌥N New Cursor Down
-  { "keys": ["ctrl+alt+p"], "command": "select_lines", "args": { "by": "characters", "forward": false } },
-
 // Text commands
-  // ⌃⌘P Swap line Up
-  { "keys": ["ctrl+super+p"], "command": "swap_line_up" },
-  // ⌃⌘N Swap line Down
-  { "keys": ["ctrl+super+n"], "command": "swap_line_down" },
 
   // ⌃] Indent
   { "keys": ["ctrl+]"], "command": "indent" },
@@ -169,20 +131,11 @@
   // ⌃[ Unindent
   { "keys": ["ctrl+["], "command": "unindent" },
 
-  // ⌥D Delete word Forward
-  { "keys": ["alt+d"], "command": "delete_word", "args": { "forward": true, "sub_words": true } },
-
-  // ⌃⌥D Delete word Backward
-  { "keys": ["ctrl+alt+d"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
-
   // ⌃/ Toggle comment
   { "keys": ["ctrl+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
 
-  // ⇧⌃C Toggle fold commens
+  // ⇧⌃C Toggle fold comments
   { "keys": ["ctrl+shift+forward_slash"], "command": "toggle_fold_comments" },
-
-  // Join lines
-  { "keys": ["ctrl+j"], "command": "join_lines" },
 
 // Window Management
   // ⇧⌃⌥⌘W Close All windows
@@ -263,12 +216,9 @@
   // ⌥⌘CColor picker
   { "keys": ["alt+super+c"], "command": "color_pick" },
 
-  // Match Backtick Quotes
-  { "keys": ["`"], "command": "insert_snippet", "args": {"name": "Packages/User/snippets/All-backticks.sublime-snippet"} },
-
   // ⌃; Add semicolon at end of line
   { "keys": ["ctrl+;"],
-    "command": "run_multiple_commands",
+    "command": "chain",
     "args": {
       "commands": [
         {"command": "move_to", "args": { "to": "eol" }},
@@ -279,7 +229,7 @@
 
   // ⌃= Add == at end of line
   { "keys": ["ctrl+="],
-    "command": "run_multiple_commands",
+    "command": "chain",
     "args": {
       "commands": [
         {"command": "move_to", "args": { "to": "eol" }},
@@ -290,7 +240,7 @@
 
   // ⇧⌃; Add semicolon at end of line, insert new line
   { "keys": ["shift+ctrl+;"],
-    "command": "run_multiple_commands",
+    "command": "chain",
     "args": {
       "commands": [
         {"command": "move_to", "args": { "to": "eol" }},
@@ -302,7 +252,7 @@
 
   // ⌃, Add comma at end of line
   { "keys": ["ctrl+,"],
-    "command": "run_multiple_commands",
+    "command": "chain",
     "args": {
       "commands": [
         {"command": "move_to", "args": { "to": "eol" }},
@@ -313,7 +263,7 @@
 
   // ⇧⌃, Add comma at end of line, insert new line
   { "keys": ["shift+ctrl+,"],
-    "command": "run_multiple_commands",
+    "command": "chain",
     "args": {
       "commands": [
         {"command": "move_to", "args": { "to": "eol" }},
@@ -325,7 +275,7 @@
 
   // ⌃space, Add space between the last character
   { "keys": ["ctrl+space"],
-    "command": "run_multiple_commands",
+    "command": "chain",
     "args": {
 
       "commands": [
@@ -389,15 +339,16 @@
                } ]
   },
 
-  // ⌃⌘. Switch between code and test in single mode
-  { "keys": ["ctrl+super+period"],
-      "command": "switch_between_code_and_test",
-      "args": {"split_view": true},
-      "context": [ { "key": "selector", "operator": "equal",
-                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
-               } ]
-  },
-
-  // ⇧⌘C Switch between code and test in split view
-  { "keys": ["shift+super+c"], "command": "generate_file" }
+  // ⌘. Switch between code and test view default to split view
+  { "keys": ["super+period"],
+    "command": "switch_between_code_and_test",
+    "args": {"split_view": true},
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.ruby, source.rspec, text.gherkin.feature"
+      }
+    ]
+  }
 ]

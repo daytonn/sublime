@@ -54,6 +54,7 @@
 	"ignored_packages":
 	[
 		"Markdown",
+		"SublimeLinter-flake8",
 		"Vintage"
 	],
 	"log_commands": true,
