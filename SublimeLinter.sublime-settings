@@ -1,110 +1,183 @@
 {
-    "user": {
-        "debug": true,
-        "delay": 0.25,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Danish Royalty/Danish Royalty.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "clang": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "extra_flags": "",
-                "include_dirs": []
-            },
-            "haml": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": false,
-                "args": [
-                    "--config",
-                    "/Users/daytonn/.jshintrc"
-                ],
-                "excludes": []
-            },
-            "jsxhint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "lua": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "rubocop": {
-                "@disable": false,
-                "args": [],
-                "excludes": [
-                    "Rakefile"
-                ]
-            },
-            "ruby": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "rust": {
-                "@disable": false,
-                "args": [],
-                "crate-root": null,
-                "excludes": [],
-                "use-cargo": false,
-                "use-crate-root": false
-            },
-            "scss": {
-                "@disable": false,
-                "args": [],
-                "exclude-linter": "",
-                "excludes": [],
-                "include-linter": ""
-            },
-            "shellcheck": {
-                "@disable": false,
-                "args": [],
-                "exclude": "",
-                "excludes": []
-            },
-            "xmllint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            }
-        },
-        "mark_style": "squiggly underline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [
-                "/Users/daytonn/.rbenv/versions/2.1.1/bin/ruby"
-            ],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "php": "html",
-            "python django": "python",
-            "rspec": "ruby",
-            "ruby on rails": "ruby"
-        },
-        "warning_color": "DDB700",
-        "wrap_find": true
-    }
+	"user":
+	{
+		"debug": true,
+		"delay": 0.25,
+		"error_color": "D02000",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Danish Royalty/Danish Royalty.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"clang":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"extra_flags": "",
+				"include_dirs":
+				[
+				]
+			},
+			"haml":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"jshint":
+			{
+				"@disable": false,
+				"args":
+				[
+					"--config",
+					"/Users/daytonn/.jshintrc"
+				],
+				"excludes":
+				[
+				]
+			},
+			"jsxhint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"lua":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"rubocop":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+					"Rakefile"
+				]
+			},
+			"ruby":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"rust":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"crate-root": null,
+				"excludes":
+				[
+				],
+				"use-cargo": false,
+				"use-crate-root": false
+			},
+			"scss":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"exclude-linter": "",
+				"excludes":
+				[
+				],
+				"include-linter": ""
+			},
+			"shellcheck":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"exclude": "",
+				"excludes":
+				[
+				]
+			},
+			"xmllint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "squiggly underline",
+		"no_column_highlights_line": false,
+		"passive_warnings": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+				"/Users/daytonn/.rbenv/versions/2.1.1/bin/ruby"
+			],
+			"windows":
+			[
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"shell_timeout": 10,
+		"show_errors_on_save": false,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+			"html (django)": "html",
+			"html (rails)": "html",
+			"html 5": "html",
+			"php": "html",
+			"python django": "python",
+			"rspec": "ruby",
+			"ruby on rails": "ruby"
+		},
+		"warning_color": "DDB700",
+		"wrap_find": true
+	}
 }

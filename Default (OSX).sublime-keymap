@@ -1,9 +1,7 @@
 [
-  {
-    "keys": ["shift+ctrl+alt+super+f"],
-    "command": "reg_replace",
-    "args": {"replacements": ["es6ify_functions"]}
-  },
+  // Switch view
+  { "keys": ["super+shift+["], "command": "prev_view_in_group" },
+  { "keys": ["super+shift+]"], "command": "next_view_in_group" },
 
 // Disable arrows
   { "section": "Disable arrows" },
@@ -166,7 +164,7 @@
   { "keys": ["ctrl+]"], "command": "indent" },
 
   // ⌘v Paste and indent
-  { "keys": ["super+v]"], "command": "paste_and_indent" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
 
   // ⌃[ Unindent
   { "keys": ["ctrl+["], "command": "unindent" },
@@ -223,13 +221,13 @@
 
 // Text case
   // ⌥⌘U Uppercase
-  { "keys": ["alt+super+u"], "command": "upper_case" },
+  { "keys": ["ctrl+alt+super+u"], "command": "upper_case" },
 
   // ⌥⌘L Lowercase
   { "keys": ["alt+super+l"], "command": "lower_case" },
 
   // ⌃⌥⌘U Titlecase
-  { "keys": ["ctrl+alt+super+u"], "command": "title_case" },
+  { "keys": ["alt+super+u"], "command": "title_case" },
 
 // Text Insertion
   // ⌥⌘= Hash Rocket

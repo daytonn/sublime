@@ -1,5 +1,6 @@
 {
 	"auto_complete_delay": 0,
+	"auto_indent": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
@@ -41,7 +42,6 @@
 		".svn",
 		"tmp",
 		"_build",
-		"bin",
 		"CVS",
 		"documentation",
 		"sass"
@@ -53,6 +53,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"log_commands": true,
@@ -62,10 +63,12 @@
 	"save_on_focus_lost": true,
 	"show_full_path": false,
 	"show_panel_on_build": true,
+	"smart_indent": true,
 	"tab_size": 2,
 	"theme": "Neopolitan.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
+	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }

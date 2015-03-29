@@ -1,15 +1,19 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
-		"Better CoffeeScript",
-		"Better JavaScript",
+		"BoundKeys",
 		"BracketHighlighter",
 		"ChangeQuotes",
 		"ColorPicker",
 		"CTags",
 		"DashDoc",
+		"CycleGroup",
+		"EJS",
 		"Elixir",
 		"Fold Comments",
 		"Gist",
@@ -23,6 +27,8 @@
 		"JavaScriptNext - ES6 Syntax",
 		"JSX",
 		"Markdown Preview",
+		"MarkdownEditing",
+		"Package Control",
 		"PackageResourceViewer",
 		"Pretty JSON",
 		"Rails Latest Migration",
@@ -32,6 +38,7 @@
 		"RubyTest",
 		"Rust",
 		"Sass",
+		"Scratch",
 		"Scratchpad",
 		"SCSS",
 		"SetSyntax",
@@ -49,6 +56,7 @@
 		"SublimeLinter-shellcheck",
 		"SublimeLinter-xmllint",
 		"SublimeREPL",
+		"Switch View in Group",
 		"WordCount",
 		"Zen Tabs"
 	],
