@@ -53,9 +53,9 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Vintage",
 		"Markdown",
-		"SublimeLinter-flake8",
-		"Vintage"
+		"SublimeLinter-flake8"
 	],
 	"log_commands": true,
 	"open_files_in_new_window": true,
