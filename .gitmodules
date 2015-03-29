@@ -1,0 +1,3 @@
+[submodule "EnhancedReadline"]
+	path = EnhancedReadline
+	url = git@github.com:daytonn/EnhancedReadline.git
