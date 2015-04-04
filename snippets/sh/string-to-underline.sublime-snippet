@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${TM_SELECTED_TEXT/./_/g}
+]]></content>
+    <scope>source.sh</scope>
+    <description>Template Snippet</description>
+</snippet>

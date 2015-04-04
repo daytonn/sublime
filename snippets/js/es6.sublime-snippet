@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+/* jshint esnext: true */
+]]></content>
+    <tabTrigger>es6</tabTrigger>
+    <description>ES6 jshint comment</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+/* jshint esnext: true */
+$0
+]]></content>
+    <tabTrigger>es</tabTrigger>
+    <scope>source.js</scope>
+    <description>jshint ES6 comment</description>
+</snippet>

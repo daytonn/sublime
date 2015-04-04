@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<% debugger %>
+]]></content>
+    <tabTrigger>db</tabTrigger>
+    <scope>source.jst</scope>
+    <description>debugger in jst templates</description>
+</snippet>

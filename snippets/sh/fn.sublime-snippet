@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function $1 {
+  $0
+}
+]]></content>
+    <tabTrigger>fn</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Bash function declaration without parenthesis</description>
+</snippet>

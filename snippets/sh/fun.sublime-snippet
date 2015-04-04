@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+$1() {
+  $0
+}
+]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.shell</scope>
+    <description>Bash function with parenthesis</description>
+</snippet>

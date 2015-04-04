@@ -2,94 +2,13 @@
   // Open Keybindings file
   { "keys": ["alt+super+,"], "command": "open_file", "args": { "file": "${packages}/User/Default (OSX).sublime-keymap" } },
 
+  // Rename file
+  { "keys": ["super+alt+ctrl+shift+r"], "command": "side_bar_rename" },
+  { "keys": ["super+alt+ctrl+shift+m"], "command": "side_bar_move" },
+
   // Cycle views
   { "keys": ["super+shift+["], "command": "prev_view_in_group" },
   { "keys": ["super+shift+]"], "command": "next_view_in_group" },
-
-// Disable arrows
-  { "section": "Disable arrows" },
-  { "keys": ["up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["left"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["super+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["super+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["super+right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["super+left"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["shift+super+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+super+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+super+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+super+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["shift+alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["ctrl+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+right"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+left"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["ctrl+super+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+super+down"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["ctrl+alt+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+alt+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+alt+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["ctrl+alt+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
-  { "keys": ["shift+ctrl+up"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+ctrl+down"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+ctrl+left"], "command": "insert_snippet", "args": {"contents": ""} },
-  { "keys": ["shift+ctrl+right"], "command": "insert_snippet", "args": {"contents": ""} },
-
-// Enable arrow keys
-  { "keys": ["up"], "command": "move", "args": { "by": "lines", "forward": false } },
-  { "keys": ["down"], "command": "move", "args": { "by": "lines", "forward": true } },
-  { "keys": ["right"], "command": "move", "args": { "by": "characters", "forward": true } },
-  { "keys": ["left"], "command": "move", "args": { "by": "characters", "forward": false } },
-
-  { "keys": ["super+up"], "command": "move_to", "args": { "to": "bof" } },
-  { "keys": ["super+down"], "command": "move_to", "args": { "to": "eof" } },
-  { "keys": ["super+right"], "command": "move_to", "args": { "to": "eol" } },
-  { "keys": ["super+left"], "command": "move_to", "args": { "to": "bol" } },
-
-  { "keys": ["shift+super+up"], "command": "move_to", "args": { "to": "bof", "extend": true } },
-  { "keys": ["shift+super+down"], "command": "move_to", "args": { "to": "eof", "extend": true } },
-  { "keys": ["shift+super+right"],  "command": "move_to", "args": { "to": "eol", "extend": true } },
-  { "keys": ["shift+super+left"],  "command": "move_to", "args": { "to": "bol", "extend": true } },
-
-  { "keys": ["alt+right"], "command": "move", "args": { "by": "wordends", "forward": true } },
-  { "keys": ["alt+left"], "command": "move", "args": { "by": "words", "forward": false } },
-
-  { "keys": ["shift+alt+right"], "command": "move", "args": { "by": "wordends", "forward": true, "extend": true } },
-  { "keys": ["shift+alt+left"], "command": "move", "args": { "by": "words", "forward": false, "extend": true } },
-
-  { "keys": ["ctrl+up"], "command": "move_to", "args": { "to": "bof" } },
-  { "keys": ["ctrl+down"], "command": "move_to", "args": { "to": "eof" } },
-  { "keys": ["ctrl+right"], "command": "move_to", "args": { "to": "eol" } },
-  { "keys": ["ctrl+left"], "command": "move_to", "args": { "to": "bol" } },
-
-  { "keys": ["ctrl+super+up"], "command": "swap_line_up" },
-  { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
-
-  { "keys": ["ctrl+alt+up"], "command": "move_to", "args": { "to": "bof" } },
-  { "keys": ["ctrl+alt+down"], "command": "move_to", "args": { "to": "eof" } },
-  { "keys": ["ctrl+alt+left"], "command": "move_to", "args": { "to": "eol" } },
-  { "keys": ["ctrl+alt+right"], "command": "move_to", "args": { "to": "bol" } },
-
-  { "keys": ["shift+ctrl+down"], "command": "select_lines", "args": { "by": "characters", "forward": true } },
-  { "keys": ["shift+ctrl+up"], "command": "select_lines", "args": { "by": "characters", "forward": false } },
-
-  { "keys": ["shift+tab"], "command": "unindent" },
 
 // Selection
   // Find and Replace in file by default
@@ -157,9 +76,6 @@
   // ⇧⌘M Open Latest Migration
   { "keys": ["shift+super+m"], "command": "rails_latest_migration"},
 
-  // ⇧⌃⌘M Show Migrations List
-  { "keys": ["shift+ctrl+super+m"], "command": "rails_migrations_list"},
-
   // ⇧⌘F Find and Replace in Project
   { "keys": ["shift+super+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
@@ -221,8 +137,8 @@
     "command": "chain",
     "args": {
       "commands": [
-        {"command": "move_to", "args": { "to": "eol" }},
-        {"command": "insert_snippet", "args": {"contents": ";"}}
+        ["move_to", { "to": "eol" }],
+        ["insert_snippet", {"contents": ";"}]
       ]
     }
   },
@@ -232,8 +148,8 @@
     "command": "chain",
     "args": {
       "commands": [
-        {"command": "move_to", "args": { "to": "eol" }},
-        {"command": "insert_snippet", "args": {"contents": " = "}}
+        ["move_to", { "to": "eol" }],
+        ["insert_snippet", {"contents": " = "}]
       ]
     }
   },
@@ -243,20 +159,21 @@
     "command": "chain",
     "args": {
       "commands": [
-        {"command": "move_to", "args": { "to": "eol" }},
-        {"command": "insert_snippet", "args": {"contents": ";"}},
-        {"command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"}}
+        ["move_to", { "to": "eol" }],
+        ["insert_snippet", {"contents": ";"}],
+        ["run_macro_file", {"file": "res://Packages/Default/Add Line.sublime-macro"}]
       ]
     }
   },
+
 
   // ⌃, Add comma at end of line
   { "keys": ["ctrl+,"],
     "command": "chain",
     "args": {
       "commands": [
-        {"command": "move_to", "args": { "to": "eol" }},
-        {"command": "insert_snippet", "args": {"contents": ","}}
+        ["move_to", { "to": "eol" }],
+        ["insert_snippet", {"contents": ","}]
       ]
     }
   },
@@ -266,9 +183,9 @@
     "command": "chain",
     "args": {
       "commands": [
-        {"command": "move_to", "args": { "to": "eol" }},
-        {"command": "insert_snippet", "args": {"contents": ","}},
-        {"command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"}}
+        ["move_to", { "to": "eol" }],
+        ["insert_snippet", {"contents": ","}],
+        ["run_macro_file", {"file": "res://Packages/Default/Add Line.sublime-macro"}]
       ]
     }
   },
@@ -279,9 +196,9 @@
     "args": {
 
       "commands": [
-        {"command": "move_to", "args": { "to": "eol" }},
-        {"command": "move", "args": {"by": "characters", "forward": false }},
-        {"command": "insert_snippet", "args": {"contents": " "}},
+        ["move_to", { "to": "eol" }],
+        ["move", {"by": "characters", "forward": false }],
+        ["insert_snippet", {"contents": " "}],
       ]
     }
   },
