@@ -3,12 +3,12 @@
     "children":
     [
       {
-        "caption": "Mou",
+        "caption": "MacDown",
         "id": "side-bar-files-open-with-mou",
         "command": "side_bar_files_open_with",
         "args": {
           "paths": [],
-          "application": "Mou.app",
+          "application": "MacDown.app",
           "extensions": "md|markdown"
         }
       },
