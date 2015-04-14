@@ -2,37 +2,53 @@
 // File Management
 // ---------------
 
-  // Open Keybindings file
+  // Open Keybindings file `⌥⌘,`
   {
     "keys": ["alt+super+,"],
     "command": "open_file",
     "args": { "file": "${packages}/User/Default (OSX).sublime-keymap" }
   },
 
-  // Rename file
+  // Rename file `⇧⌃⌥⌘R`
   {
     "keys": ["super+alt+ctrl+shift+r"],
     "command": "side_bar_rename"
   },
 
+  //  Move file `⇧⌃⌥⌘M`
   {
     "keys": ["super+alt+ctrl+shift+m"],
     "command": "side_bar_move"
   },
 
+  // New file `⌘N`
+  {
+    "keys": ["super+n"],
+    "command": "advanced_new_file_new"
+  },
+
+  // Open Latest Migration `⇧⌘M`
+  {
+    "keys": ["shift+super+m"],
+    "command": "rails_latest_migration"
+  },
+
+  // Show file in sidebar `⌃⌘R`
+  {
+    "keys": ["ctrl+super+r"],
+    "command": "reveal_in_side_bar"
+  },
+
 // Limit cycling to group
 // ----------------------
 
-  // Cycle views
-  { "keys": ["super+shift+["], "command": "prev_view_in_group" },
-  { "keys": ["super+shift+]"], "command": "next_view_in_group" },
-
-// Selection
+  // Cycle previous view within group `⇧⌘[`
   {
     "keys": ["super+shift+["],
     "command": "prev_view_in_group"
   },
 
+  // Cycle next view within group `⇧⌘]`
   {
     "keys": ["super+shift+]"],
     "command": "next_view_in_group"
@@ -41,51 +57,51 @@
 // Find
 // ----
 
-  // Find and Replace in file by default
+  // Find and Replace in file by default `⌘F`
   {
     "keys": ["super+f"],
     "command": "show_panel",
     "args": {"panel": "replace"}
   },
 
-  // Find and Replace in project by default
+  // Find and Replace in project by default `⇧⌘F`
   {
     "keys": ["super+shift+f"],
     "command": "show_panel",
     "args": {"panel": "find_in_files"}
   },
 
-  // Replace next match
+  // Replace next match `⌘⌥F`
   {
     "keys": ["super+alt+f"],
     "command": "replace_next"
   },
 
-  // Find next match
+  // Find next match `⌘G`
   {
     "keys": ["super+g"],
     "command": "find_next"
   },
 
-  // Find previous match
+  // Find previous match `⇧⌘G`
   {
     "keys": ["super+shift+g"],
     "command": "find_prev"
   },
 
-  // ⌥⌘F Replace selection
+  // Replace selection `⌥⌘F`
   {
     "keys": ["alt+super+f"],
     "command": "replace_next"
   },
 
-  // ⌘G Next match
+  // Next match `⌘G`
   {
     "keys": ["super+g"],
     "command": "find_next"
   },
 
-  // ⇧⌘G Previous match
+  // Previous match `⇧⌘G`
   {
     "keys": ["shift+super+g"],
     "command": "find_prev"
@@ -95,7 +111,7 @@
 // Multiple Cursors
 // ----------------
 
-  // ⌥⌘D Skip selection
+  // Skip selection `⌥⌘D`
   {
     "keys": ["alt+super+d"],
     "command": "find_under_expand_skip"
@@ -104,13 +120,13 @@
 // Text commands
 // -------------
 
-  // ⌘V Paste and indent by default
+  // Paste and indent by default `⌘V`
   {
     "keys": ["super+v"],
     "command": "paste_and_indent"
   },
 
-  // F5 Sort lines
+  // Sort lines `F5`
   {
     "keys": ["f5"],
     "command": "sort_lines",
@@ -120,86 +136,46 @@
 // Window Management
 // -----------------
 
-  // ⇧⌃⌥⌘W Close All windows
+  // Close All windows `⇧⌃⌥⌘W`
   {
     "keys": ["shift+ctrl+alt+super+w"],
     "command": "close_all"
   },
 
-  // ⌃⌥⌘D Toggle Drawer
+  // Toggle Drawer `⌃⌥⌘D`
   {
     "keys": ["ctrl+alt+super+d"],
     "command": "toggle_side_bar"
   },
 
-  // ⌃⌥⌘M Toggle Mini Map
+  // Toggle Mini Map `⌃⌥⌘M`
   {
     "keys": ["ctrl+alt+super+m"],
     "command": "toggle_minimap"
   },
 
-  // ⇧⌘T Reopen tab
+  // Reopen tab `⇧⌘T`
   {
     "keys": ["shift+super+t"],
     "command": "reopen_last_file"
   },
 
-// File Management
-// ---------------
-
-  // ⌘N New file
-  {
-    "keys": ["super+n"],
-    "command": "advanced_new_file_new"},
-
-  // ⇧⌘M Open Latest Migration
-  {
-    "keys": ["shift+super+m"],
-    "command": "rails_latest_migration"
-  },
-
-  // ⇧⌘F Find and Replace in Project
-  {
-    "keys": ["shift+super+f"],
-    "command": "show_panel",
-    "args": {"panel": "find_in_files"}
-  },
-
-  // ⌘F Find and Replace
-  {
-    "keys": ["super+f"],
-    "command": "show_panel",
-    "args": {"panel": "replace"}
-  },
-
-  // ⌃⌘R Show file in sidebar
-  {
-    "keys": ["ctrl+super+r"],
-    "command": "reveal_in_side_bar"
-  },
-
-  // ⇧⌃⌘N New Scratchpad
-  {
-    "keys": ["shift+ctrl+super+n"],
-    "command": "scratchpad"
-  },
-
 // Text case
 // ---------
 
-  // ⌥⌘U Uppercase
+  // Uppercase `⌥⌘U`
   {
     "keys": ["ctrl+alt+super+u"],
     "command": "upper_case"
   },
 
-  // ⌥⌘L Lowercase
+  // Lowercase `⌥⌘L`
   {
     "keys": ["alt+super+l"],
     "command": "lower_case"
   },
 
-  // ⌃⌥⌘U Titlecase
+  // Titlecase `⌃⌥⌘U`
   {
     "keys": ["alt+super+u"],
     "command": "title_case"
@@ -208,81 +184,82 @@
 // Text Insertion
 // -----------------
 
-  // ⌥⌘= Hash Rocket
+  // Hash Rocket `⌥⌘=`
   {
     "keys": ["alt+super+="],
     "command": "insert_snippet",
     "args": {"contents": "=>"}
   },
 
-  // ⌥⌘` Spermy lock operator
+  // Spermy lock operator `⌥⌘\``
   {
     "keys": ["alt+super+`"],
     "command": "insert_snippet",
     "args": {"contents": "~>"}
   },
 
-  // ⌃0 Insert right parens
+  // Insert right parens `⌃0`
   {
     "keys": ["ctrl+0"],
     "command": "insert_snippet",
-    "args": {"contents": ")"}},
+    "args": {"contents": ")"}
+  },
 
-  // ⌃9 Insert left parens
+  // Insert left parens `⌃9`
   {
     "keys": ["ctrl+9"],
     "command": "insert_snippet",
     "args": {"contents": "("}
-    },
+  },
 
-  // ⌃' Insert double quotes
+  // Insert double quotes `⌃'`
   {
     "keys": ["ctrl+'"],
     "command": "insert_snippet",
     "args": {"contents": "\""}
   },
 
-  // ⌥⌘- Stabby Arrow
+  // Stabby Arrow `⌥⌘-`
   {
     "keys": ["alt+super+-"],
     "command": "insert_snippet",
     "args": {"contents": "->"}
   },
 
-  // ⇧⌥⌘_ To Underscore
+  // To Underscore `⇧⌥⌘_`
   {
     "keys": ["shift+ctrl+-"],
     "command": "insert_snippet",
     "args": {"name": "Packages/User/snippets/sh-string-to-underline.sublime-snippet"}
   },
 
-  // ⌃⌥⌘= Convert Hash Rockets
+  // Convert Hash Rockets `⌃⌥⌘=`
   {
     "keys": ["ctrl+alt+super+="],
     "command": "insert_snippet",
     "args": {"name": "Packages/User/snippets/ruby-hash-convert.sublime-snippet"}
   },
 
-  // ⇧⌃: String to Symbol
+  // String to Symbol `⇧⌃:`
   {
     "keys": ["shift+ctrl+;"],
     "command": "insert_snippet",
     "args": {"name": "Packages/User/snippets/ruby-symbolize.sublime-snippet"}
   },
 
-  // ⇧⌘" Symbol to String
+  // Symbol to String `⇧⌘"`
   {
     "keys": ["shift+super+'"],
     "command": "insert_snippet",
     "args": {"name": "Packages/User/snippets/ruby-unsymbolize.sublime-snippet"}
   },
 
-  // ⌥⌘CColor picker
+  // Color picker `⌥⌘C`
   {
     "keys": ["alt+super+c"], "command": "color_pick"
   },
 
-  // ⌃; Add semicolon at end of line
+  // Add semicolon at end of line `⌃;`
   {
     "keys": ["ctrl+;"],
     "command": "chain",
@@ -294,7 +271,7 @@
     }
   },
 
-  // ⌃= Add == at end of line
+  // Add == at end of line `⌃=`
   {
     "keys": ["ctrl+="],
     "command": "chain",
@@ -306,7 +283,7 @@
     }
   },
 
-  // ⇧⌃; Add semicolon at end of line, insert new line
+  // Add semicolon at end of line, insert new line `⇧⌃;`
   {
     "keys": ["shift+ctrl+;"],
     "command": "chain",
@@ -320,7 +297,7 @@
   },
 
 
-  // ⌃, Add comma at end of line
+  // Add comma at end of line `⌃,`
   {
     "keys": ["ctrl+,"],
     "command": "chain",
@@ -332,7 +309,7 @@
     }
   },
 
-  // ⇧⌃, Add comma at end of line, insert new line
+  // Add comma at end of line, insert new line `⇧⌃,`
   {
     "keys": ["shift+ctrl+,"],
     "command": "chain",
@@ -345,7 +322,7 @@
     }
   },
 
-  // ⌃space, Add space between the last character
+  // Add space between the last character `⌃⎵`
   {
     "keys": ["ctrl+space"],
     "command": "chain",
@@ -365,7 +342,7 @@
     "args": { "target": "browser" }
   },
 
-  // ⌃⌘L Sublime linter
+  // Sublime linter `⌃⌘L`
   {
     "keys": ["ctrl+super+l"],
     "command": "sublimelinter_show_errors",
@@ -375,7 +352,7 @@
 // Ruby Test
 // ---------
 
-  // ⇧⌘R Run Single Test
+  // Run Single Test `⇧⌘R`
   {
     "keys": ["super+r"], "command": "run_single_ruby_test",
     "context": [
@@ -387,7 +364,7 @@
     ]
   },
 
-  // ⌘R All Tests
+  // All Tests `⌘R`
   {
     "keys": ["shift+super+r"], "command": "run_all_ruby_test",
       "context": [
@@ -399,7 +376,7 @@
       ]
   },
 
-  // ⌘R All Tests (RubyMine Style)
+  // All Tests (RubyMine Style) `⌘R`
   {
     "keys": ["shift+ctrl+f10"], "command": "run_all_ruby_test",
       "context": [
@@ -411,7 +388,7 @@
       ]
   },
 
-  // ⇧⌘E Run Last Test
+  // Run Last Test `⇧⌘E`
   {
     "keys": ["shift+super+e"], "command": "run_last_ruby_test",
     "context": [
@@ -423,7 +400,7 @@
     ]
   },
 
-  // ⇧⌘E Run Last Test (RubyMine style)
+  // Run Last Test (RubyMine style) `⇧⌘E`
   {
     "keys": ["shift+f10"], "command": "run_last_ruby_test",
     "context": [
@@ -435,11 +412,12 @@
     ]
   },
 
-  // ⇧⌘X Toggle Test Console
+  // Toggle Test Console `⇧⌘X`
   {
-    "keys": ["shift+super+x"], "command": "show_test_panel" },
+    "keys": ["shift+super+x"], "command": "show_test_panel"
+  },
 
-  // ⇧⌥V Verify File
+  // Verify File `⇧⌥V`
   {
     "keys": ["shift+alt+v"], "command": "verify_ruby_file",
     "context": [
@@ -451,7 +429,7 @@
     ]
   },
 
-  // ⌘. Switch between code and test view default to split view
+  // Switch between code and test view default to split view `⌘.`
   {
     "keys": ["super+period"],
     "command": "switch_between_code_and_test",

@@ -30,11 +30,11 @@ class KeymapParser
   end
 
   def is_code_begining?(line)
-    !!line.match(/^\s+\{/)
+    !!line.match(/^\s{2}\{/)
   end
 
   def is_code_ending?(line)
-    !!line.match(/^\s+\}\,?/)
+    !!line.match(/^\s{2}\}\,?/)
   end
 
   def is_commented?(line)

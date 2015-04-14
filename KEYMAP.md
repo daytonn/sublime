@@ -1,7 +1,7 @@
 File Management
 ---------------
 
-  Open Keybindings file
+  Open Keybindings file `⌥⌘,`
 
   ```js
   {
@@ -11,7 +11,7 @@ File Management
   }
   ```
 
-  Rename file
+  Rename file `⇧⌃⌥⌘R`
 
   ```js
   {
@@ -20,6 +20,7 @@ File Management
   }
   ```
 
+   Move file `⇧⌃⌥⌘M`
 
   ```js
   {
@@ -28,10 +29,37 @@ File Management
   }
   ```
 
+  New file `⌘N`
+
+  ```js
+  {
+    "keys": ["super+n"],
+    "command": "advanced_new_file_new"
+  }
+  ```
+
+  Open Latest Migration `⇧⌘M`
+
+  ```js
+  {
+    "keys": ["shift+super+m"],
+    "command": "rails_latest_migration"
+  }
+  ```
+
+  Show file in sidebar `⌃⌘R`
+
+  ```js
+  {
+    "keys": ["ctrl+super+r"],
+    "command": "reveal_in_side_bar"
+  }
+  ```
+
 Limit cycling to group
 ----------------------
 
-  Cycle views
+  Cycle previous view within group `⇧⌘[`
 
   ```js
   {
@@ -40,6 +68,7 @@ Limit cycling to group
   }
   ```
 
+  Cycle next view within group `⇧⌘]`
 
   ```js
   {
@@ -51,7 +80,7 @@ Limit cycling to group
 Find
 ----
 
-  Find and Replace in file by default
+  Find and Replace in file by default `⌘F`
 
   ```js
   {
@@ -61,7 +90,7 @@ Find
   }
   ```
 
-  Find and Replace in project by default
+  Find and Replace in project by default `⇧⌘F`
 
   ```js
   {
@@ -71,7 +100,7 @@ Find
   }
   ```
 
-  Replace next match
+  Replace next match `⌘⌥F`
 
   ```js
   {
@@ -80,7 +109,7 @@ Find
   }
   ```
 
-  Find next match
+  Find next match `⌘G`
 
   ```js
   {
@@ -89,7 +118,7 @@ Find
   }
   ```
 
-  Find previous match
+  Find previous match `⇧⌘G`
 
   ```js
   {
@@ -98,7 +127,7 @@ Find
   }
   ```
 
-  ⌥⌘F Replace selection
+  Replace selection `⌥⌘F`
 
   ```js
   {
@@ -107,7 +136,7 @@ Find
   }
   ```
 
-  ⌘G Next match
+  Next match `⌘G`
 
   ```js
   {
@@ -116,7 +145,7 @@ Find
   }
   ```
 
-  ⇧⌘G Previous match
+  Previous match `⇧⌘G`
 
   ```js
   {
@@ -129,7 +158,7 @@ Find
 Multiple Cursors
 ----------------
 
-  ⌥⌘D Skip selection
+  Skip selection `⌥⌘D`
 
   ```js
   {
@@ -141,7 +170,7 @@ Multiple Cursors
 Text commands
 -------------
 
-  ⌘V Paste and indent by default
+  Paste and indent by default `⌘V`
 
   ```js
   {
@@ -150,7 +179,7 @@ Text commands
   }
   ```
 
-  F5 Sort lines
+  Sort lines `F5`
 
   ```js
   {
@@ -163,7 +192,7 @@ Text commands
 Window Management
 -----------------
 
-  ⇧⌃⌥⌘W Close All windows
+  Close All windows `⇧⌃⌥⌘W`
 
   ```js
   {
@@ -172,7 +201,7 @@ Window Management
   }
   ```
 
-  ⌃⌥⌘D Toggle Drawer
+  Toggle Drawer `⌃⌥⌘D`
 
   ```js
   {
@@ -181,7 +210,7 @@ Window Management
   }
   ```
 
-  ⌃⌥⌘M Toggle Mini Map
+  Toggle Mini Map `⌃⌥⌘M`
 
   ```js
   {
@@ -190,7 +219,7 @@ Window Management
   }
   ```
 
-  ⇧⌘T Reopen tab
+  Reopen tab `⇧⌘T`
 
   ```js
   {
@@ -199,65 +228,10 @@ Window Management
   }
   ```
 
-File Management
----------------
-
-  ⌘N New file
-
-  ```js
-  {
-    "keys": ["super+n"],
-    "command": "advanced_new_file_new"},
-
-  ⇧⌘M Open Latest Migration
-
-  ```js
-  {
-    "keys": ["shift+super+m"],
-    "command": "rails_latest_migration"},
-
-  ⇧⌘F Find and Replace in Project
-
-  ```js
-  {
-    "keys": ["shift+super+f"],
-    "command": "show_panel",
-    "args": {"panel": "find_in_files"}
-  }
-  ```
-
-  ⌘F Find and Replace
-
-  ```js
-  {
-    "keys": ["super+f"],
-    "command": "show_panel",
-    "args": {"panel": "replace"}
-  }
-  ```
-
-  ⌃⌘R Show file in sidebar
-
-  ```js
-  {
-    "keys": ["ctrl+super+r"],
-    "command": "reveal_in_side_bar"
-  }
-  ```
-
-  ⇧⌃⌘N New Scratchpad
-
-  ```js
-  {
-    "keys": ["shift+ctrl+super+n"],
-    "command": "scratchpad"
-  }
-  ```
-
 Text case
 ---------
 
-  ⌥⌘U Uppercase
+  Uppercase `⌥⌘U`
 
   ```js
   {
@@ -266,7 +240,7 @@ Text case
   }
   ```
 
-  ⌥⌘L Lowercase
+  Lowercase `⌥⌘L`
 
   ```js
   {
@@ -275,7 +249,7 @@ Text case
   }
   ```
 
-  ⌃⌥⌘U Titlecase
+  Titlecase `⌃⌥⌘U`
 
   ```js
   {
@@ -287,7 +261,7 @@ Text case
 Text Insertion
 -----------------
 
-  ⌥⌘= Hash Rocket
+  Hash Rocket `⌥⌘=`
 
   ```js
   {
@@ -297,7 +271,7 @@ Text Insertion
   }
   ```
 
-  ⌥⌘` Spermy lock operator
+  Spermy lock operator `⌥⌘\``
 
   ```js
   {
@@ -307,25 +281,27 @@ Text Insertion
   }
   ```
 
-  ⌃0 Insert right parens
+  Insert right parens `⌃0`
 
   ```js
   {
     "keys": ["ctrl+0"],
     "command": "insert_snippet",
-    "args": {"contents": ")"}},
+    "args": {"contents": ")"}
+  }
+  ```
 
-  ⌃9 Insert left parens
+  Insert left parens `⌃9`
 
   ```js
   {
     "keys": ["ctrl+9"],
     "command": "insert_snippet",
     "args": {"contents": "("}
-    }
+  }
   ```
 
-  ⌃' Insert double quotes
+  Insert double quotes `⌃'`
 
   ```js
   {
@@ -335,7 +311,7 @@ Text Insertion
   }
   ```
 
-  ⌥⌘- Stabby Arrow
+  Stabby Arrow `⌥⌘-`
 
   ```js
   {
@@ -345,7 +321,7 @@ Text Insertion
   }
   ```
 
-  ⇧⌥⌘_ To Underscore
+  To Underscore `⇧⌥⌘_`
 
   ```js
   {
@@ -355,7 +331,7 @@ Text Insertion
   }
   ```
 
-  ⌃⌥⌘= Convert Hash Rockets
+  Convert Hash Rockets `⌃⌥⌘=`
 
   ```js
   {
@@ -365,7 +341,7 @@ Text Insertion
   }
   ```
 
-  ⇧⌃: String to Symbol
+  String to Symbol `⇧⌃:`
 
   ```js
   {
@@ -375,7 +351,7 @@ Text Insertion
   }
   ```
 
-  ⇧⌘" Symbol to String
+  Symbol to String `⇧⌘"`
 
   ```js
   {
@@ -385,7 +361,7 @@ Text Insertion
   }
   ```
 
-  ⌥⌘CColor picker
+  Color picker `⌥⌘C`
 
   ```js
   {
@@ -393,7 +369,7 @@ Text Insertion
   }
   ```
 
-  ⌃; Add semicolon at end of line
+  Add semicolon at end of line `⌃;`
 
   ```js
   {
@@ -405,11 +381,10 @@ Text Insertion
         ["insert_snippet", {"contents": ";"}]
       ]
     }
-  ```
   }
   ```
 
-  ⌃= Add == at end of line
+  Add == at end of line `⌃=`
 
   ```js
   {
@@ -421,11 +396,10 @@ Text Insertion
         ["insert_snippet", {"contents": " = "}]
       ]
     }
-  ```
   }
   ```
 
-  ⇧⌃; Add semicolon at end of line, insert new line
+  Add semicolon at end of line, insert new line `⇧⌃;`
 
   ```js
   {
@@ -438,12 +412,11 @@ Text Insertion
         ["run_macro_file", {"file": "res:Packages/Default/Add Line.sublime-macro"}]
       ]
     }
-  ```
   }
   ```
 
 
-  ⌃, Add comma at end of line
+  Add comma at end of line `⌃,`
 
   ```js
   {
@@ -455,11 +428,10 @@ Text Insertion
         ["insert_snippet", {"contents": ","}]
       ]
     }
-  ```
   }
   ```
 
-  ⇧⌃, Add comma at end of line, insert new line
+  Add comma at end of line, insert new line `⇧⌃,`
 
   ```js
   {
@@ -472,11 +444,10 @@ Text Insertion
         ["run_macro_file", {"file": "res:Packages/Default/Add Line.sublime-macro"}]
       ]
     }
-  ```
   }
   ```
 
-  ⌃space, Add space between the last character
+  Add space between the last character `⌃⎵`
 
   ```js
   {
@@ -490,7 +461,6 @@ Text Insertion
         ["insert_snippet", {"contents": " "}],
       ]
     }
-  ```
   }
   ```
 
@@ -503,7 +473,7 @@ Text Insertion
   }
   ```
 
-  ⌃⌘L Sublime linter
+  Sublime linter `⌃⌘L`
 
   ```js
   {
@@ -516,121 +486,105 @@ Text Insertion
 Ruby Test
 ---------
 
-  ⇧⌘R Run Single Test
+  Run Single Test `⇧⌘R`
 
   ```js
   {
     "keys": ["super+r"], "command": "run_single_ruby_test",
     "context": [
-
-  ```js
       {
         "key": "selector",
         "operator": "equal",
         "operand": "source.ruby, source.rspec, text.gherkin.feature"
       }
-  ```
     ]
   }
   ```
 
-  ⌘R All Tests
+  All Tests `⌘R`
 
   ```js
   {
     "keys": ["shift+super+r"], "command": "run_all_ruby_test",
       "context": [
-
-  ```js
         {
           "key": "selector",
           "operator": "equal",
           "operand": "source.ruby, source.rspec, text.gherkin.feature"
         }
-  ```
       ]
   }
   ```
 
-  ⌘R All Tests (RubyMine Style)
+  All Tests (RubyMine Style) `⌘R`
 
   ```js
   {
     "keys": ["shift+ctrl+f10"], "command": "run_all_ruby_test",
       "context": [
-
-  ```js
         {
           "key": "selector",
           "operator": "equal",
           "operand": "source.ruby, source.rspec, text.gherkin.feature"
         }
-  ```
       ]
   }
   ```
 
-  ⇧⌘E Run Last Test
+  Run Last Test `⇧⌘E`
 
   ```js
   {
     "keys": ["shift+super+e"], "command": "run_last_ruby_test",
     "context": [
-
-  ```js
       {
         "key": "selector",
         "operator": "equal",
         "operand": "source.ruby, source.rspec, text.gherkin.feature"
       }
-  ```
     ]
   }
   ```
 
-  ⇧⌘E Run Last Test (RubyMine style)
+  Run Last Test (RubyMine style) `⇧⌘E`
 
   ```js
   {
     "keys": ["shift+f10"], "command": "run_last_ruby_test",
     "context": [
-
-  ```js
       {
         "key": "selector",
         "operator": "equal",
         "operand": "source.ruby, source.rspec, text.gherkin.feature"
       }
-  ```
     ]
   }
   ```
 
-  ⇧⌘X Toggle Test Console
+  Toggle Test Console `⇧⌘X`
 
   ```js
   {
-    "keys": ["shift+super+x"], "command": "show_test_panel" },
+    "keys": ["shift+super+x"], "command": "show_test_panel"
+  }
+  ```
 
-  ⇧⌥V Verify File
+  Verify File `⇧⌥V`
 
   ```js
   {
     "keys": ["shift+alt+v"], "command": "verify_ruby_file",
     "context": [
-
-  ```js
       {
         "key": "selector",
         "operator": "equal",
                     "operand": "source.ruby"
       }
-  ```
     ]
   }
   ```
 
-  ⌘. Switch between code and test view default to split view
+  Switch between code and test view default to split view `⌘.`
 
   ```js
   {
@@ -638,14 +592,11 @@ Ruby Test
     "command": "switch_between_code_and_test",
     "args": {"split_view": true},
     "context": [
-
-  ```js
       {
         "key": "selector",
         "operator": "equal",
         "operand": "source.ruby, source.rspec, text.gherkin.feature"
       }
-  ```
     ]
   }
   ```
