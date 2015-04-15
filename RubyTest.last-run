@@ -1,4 +1,0 @@
-{
-	"last_test_run": "rspec --no-color --format progress spec/country_spec.rb:17",
-	"last_test_working_dir": "/Users/daytonn/Development/tco_api"
-}

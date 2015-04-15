@@ -2,92 +2,45 @@
 // File Management
 // ---------------
 
-  // Open Keybindings file `⌥⌘,`
-  {
-    "keys": ["alt+super+,"],
-    "command": "open_file",
-    "args": { "file": "${packages}/User/Default (OSX).sublime-keymap" }
-  },
+  // Open Keybindings file
+  { "keys": ["alt+super+,"], "command": "open_file", "args": { "file": "${packages}/User/Default (OSX).sublime-keymap" } },
 
-  // Rename file `⇧⌃⌥⌘R`
-  {
-    "keys": ["super+alt+ctrl+shift+r"],
-    "command": "side_bar_rename"
-  },
+  // Rename file
+  { "keys": ["super+alt+ctrl+shift+r"], "command": "side_bar_rename" },
+  { "keys": ["super+alt+ctrl+shift+m"], "command": "side_bar_move" },
 
-  //  Move file `⇧⌃⌥⌘M`
-  {
-    "keys": ["super+alt+ctrl+shift+m"],
-    "command": "side_bar_move"
-  },
+  // Cycle views
+  { "keys": ["super+shift+["], "command": "prev_view_in_group" },
+  { "keys": ["super+shift+]"], "command": "next_view_in_group" },
 
-  // New file `⌘N`
-  {
-    "keys": ["super+n"],
-    "command": "advanced_new_file_new"
-  },
+// Selection
+  // Find and Replace in file by default
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
+  // Find and Replace in project by default
+  { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+  // Replace next match
+  { "keys": ["super+alt+f"], "command": "replace_next" },
+  // Find next match
+  { "keys": ["super+g"], "command": "find_next" },
+  // Find previous match
+  { "keys": ["super+shift+g"], "command": "find_prev" },
 
-  // Open Latest Migration `⇧⌘M`
-  {
-    "keys": ["shift+super+m"],
-    "command": "rails_latest_migration"
-  },
+  // ⌘V Paste and indent
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  // ⌥⌘D Skip selection
+  { "keys": ["alt+super+d"], "command": "find_under_expand_skip" },
 
-  // Show file in sidebar `⌃⌘R`
-  {
-    "keys": ["ctrl+super+r"],
-    "command": "reveal_in_side_bar"
-  },
+  // ⌥⌘F Replace selection
+  { "keys": ["alt+super+f"], "command": "replace_next" },
 
-// Limit cycling to group
-// ----------------------
+  // ⌘G Next match
+  { "keys": ["super+g"], "command": "find_next" },
 
-  // Cycle previous view within group `⇧⌘[`
-  {
-    "keys": ["super+shift+["],
-    "command": "prev_view_in_group"
-  },
+  // ⇧⌘G Previous match
+  { "keys": ["shift+super+g"], "command": "find_prev" },
 
-  // Cycle next view within group `⇧⌘]`
-  {
-    "keys": ["super+shift+]"],
-    "command": "next_view_in_group"
-  },
-
-// Find
-// ----
-
-  // Find and Replace in file by default `⌘F`
-  {
-    "keys": ["super+f"],
-    "command": "show_panel",
-    "args": {"panel": "replace"}
-  },
-
-  // Find and Replace in project by default `⇧⌘F`
-  {
-    "keys": ["super+shift+f"],
-    "command": "show_panel",
-    "args": {"panel": "find_in_files"}
-  },
-
-  // Replace next match `⌘⌥F`
-  {
-    "keys": ["super+alt+f"],
-    "command": "replace_next"
-  },
-
-  // Find next match `⌘G`
-  {
-    "keys": ["super+g"],
-    "command": "find_next"
-  },
-
-  // Find previous match `⇧⌘G`
-  {
-    "keys": ["super+shift+g"],
-    "command": "find_prev"
-  },
+  // F5 Sort lines
+  { "keys": ["f5"], "command": "sort_lines", "args": {"case_sensitive": false} },
 
   // Replace selection `⌥⌘F`
   {
@@ -101,85 +54,8 @@
     "command": "find_next"
   },
 
-  // Previous match `⇧⌘G`
-  {
-    "keys": ["shift+super+g"],
-    "command": "find_prev"
-  },
-
-
-// Multiple Cursors
-// ----------------
-
-  // Skip selection `⌥⌘D`
-  {
-    "keys": ["alt+super+d"],
-    "command": "find_under_expand_skip"
-  },
-
-// Text commands
-// -------------
-
-  // Paste and indent by default `⌘V`
-  {
-    "keys": ["super+v"],
-    "command": "paste_and_indent"
-  },
-
-  // Sort lines `F5`
-  {
-    "keys": ["f5"],
-    "command": "sort_lines",
-    "args": {"case_sensitive": false}
-  },
-
-// Window Management
-// -----------------
-
-  // Close All windows `⇧⌃⌥⌘W`
-  {
-    "keys": ["shift+ctrl+alt+super+w"],
-    "command": "close_all"
-  },
-
-  // Toggle Drawer `⌃⌥⌘D`
-  {
-    "keys": ["ctrl+alt+super+d"],
-    "command": "toggle_side_bar"
-  },
-
-  // Toggle Mini Map `⌃⌥⌘M`
-  {
-    "keys": ["ctrl+alt+super+m"],
-    "command": "toggle_minimap"
-  },
-
-  // Reopen tab `⇧⌘T`
-  {
-    "keys": ["shift+super+t"],
-    "command": "reopen_last_file"
-  },
-
-// Text case
-// ---------
-
-  // Uppercase `⌥⌘U`
-  {
-    "keys": ["ctrl+alt+super+u"],
-    "command": "upper_case"
-  },
-
-  // Lowercase `⌥⌘L`
-  {
-    "keys": ["alt+super+l"],
-    "command": "lower_case"
-  },
-
-  // Titlecase `⌃⌥⌘U`
-  {
-    "keys": ["alt+super+u"],
-    "command": "title_case"
-  },
+  // ⇧⌘F Find and Replace in Project
+  { "keys": ["shift+super+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
 // Text Insertion
 // -----------------
@@ -295,7 +171,6 @@
       ]
     }
   },
-
 
   // Add comma at end of line `⌃,`
   {
