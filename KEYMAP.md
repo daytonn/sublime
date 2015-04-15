@@ -261,6 +261,16 @@ Text case
 Text Insertion
 -----------------
 
+  Pipe Quotes `⇧⌃|`
+
+  ```js
+  {
+    "keys": ["shift+ctrl+\\"],
+    "command": "insert_snippet",
+    "args": {"name": "Packages/User/snippets/ruby/pipe-quotes.sublime-snippet"}
+  }
+  ```
+
   Hash Rocket `⌥⌘=`
 
   ```js
