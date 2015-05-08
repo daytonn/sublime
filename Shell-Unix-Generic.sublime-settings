@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		".aliases",
 		".baptize",
 		".bash_functions",
 		".colors",
@@ -9,6 +8,7 @@
 		".git_prompt",
 		".holywater",
 		"bats",
-		"pre-commit"
+		"pre-commit",
+		".aliases"
 	]
 }

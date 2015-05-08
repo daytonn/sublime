@@ -186,7 +186,7 @@
 
   // Pipe Quotes `⇧⌃|`
   {
-    "keys": ["shift+ctrl+\\"],
+    "keys": ["ctrl+super+\\"],
     "command": "insert_snippet",
     "args": {"name": "Packages/User/snippets/ruby/pipe-quotes.sublime-snippet"}
   },
