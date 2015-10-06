@@ -1,11 +1,10 @@
 {
 	"user":
 	{
-		"@disable": true,
 		"debug": true,
 		"delay": 0.25,
 		"error_color": "D02000",
-		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Danish Royalty/Danish Royalty.gutter-theme",
+		"gutter_theme": "none",
 		"gutter_theme_excludes":
 		[
 		],
@@ -26,6 +25,26 @@
 				[
 				]
 			},
+			"elixirlinter":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"eslint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
 			"haml":
 			{
 				"@disable": false,
@@ -38,7 +57,7 @@
 			},
 			"jshint":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 					"--config",
@@ -50,7 +69,7 @@
 			},
 			"jsxhint":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],

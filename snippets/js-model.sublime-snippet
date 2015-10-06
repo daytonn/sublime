@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+import Model from "ampersand-model"
+
+export default Model.extend({
+  props: {
+    $0
+  }
+})
+]]></content>
+    <tabTrigger>mod</tabTrigger>
+    <scope>source.js</scope>
+    <description>Ampersand model</description>
+</snippet>

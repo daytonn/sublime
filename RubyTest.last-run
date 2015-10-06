@@ -1,4 +1,4 @@
 {
-	"last_test_run": "spring rspec --no-color --format progress spec/controllers/payment_profiles_controller_spec.rb:21",
-	"last_test_working_dir": "/Users/daytonn/Development/tco-ui"
+	"last_test_run": "bundle exec rspec --no-color --format progress spec/models/disbursement_method_spec.rb:13",
+	"last_test_working_dir": "/Users/daytonn/Development/tco-gateway"
 }

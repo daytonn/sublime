@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+import { $0 } from "lodash"
+]]></content>
+    <tabTrigger>lodash</tabTrigger>
+    <scope>source.js</scope>
+    <description>ES6 lodash</description>
+</snippet>

@@ -22,6 +22,16 @@
           "extensions":"psd|png|jpg|jpeg"  //any file with these extensions
         }
       },
+      {
+        "caption": "Preview",
+        "id": "side-bar-files-open-with-preview",
+        "command": "side_bar_files_open_with",
+        "args": {
+          "paths": [],
+          "application": "Preview.app", // OSX
+          "extensions":"psd|png|jpg|jpeg|pdf"  //any file with these extensions
+        }
+      },
       {"caption":"-"},
       {
         "caption": "Chrome",
